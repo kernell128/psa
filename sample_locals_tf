@@ -1,0 +1,16 @@
+locals {
+  target_project_id       = "YOUR_PROJECT_ID"
+  cloud_target_region     = "YOUR_TARGET_REGION"
+  cloud_target_zone       = "YOUR_TARGET_REGION"
+  psc_reserv_range        = "YOUR_IPADDR_10.0.0.0"
+  vpc_name                = "YOUR_VPC_name_"
+  vpc_description         = "YOUR_VPC_name_Globex VPC"
+  vpc_auto_create_subnets = false
+  routing_mode            = "GLOBAL"
+  reserv_name             = "YOUR_PRIVATE_IP_ALLOCATION_NAME"
+  reserv_purp             = "VPC_PEERING"
+  reserv_type             = "INTERNAL"
+  reserv_leng             = 21
+  peering_export_routes   = true
+  peering_import_routes   = true
+}
